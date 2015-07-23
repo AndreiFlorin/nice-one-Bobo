@@ -10,7 +10,7 @@ class Question(models.Model):
 
 
 
-	def __repr__(self):
+	def __str__(self):
 		return '<{} - {} >'.format(self.id,self.text)
 
 	def __str__(self):
@@ -30,3 +30,5 @@ class Choice(models.Model):
 
     def __str__(self):
     	return self.choice_text
+
+

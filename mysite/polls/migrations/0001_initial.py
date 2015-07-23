@@ -31,4 +31,5 @@ class Migration(migrations.Migration):
             name='question',
             field=models.ForeignKey(to='polls.Question'),
         ),
+
     ]
